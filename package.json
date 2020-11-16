@@ -1,20 +1,20 @@
 {
-  "name": "create-react-app-lambda",
+  "name": "create-react-app-fcclock",
   "version": "0.5.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:lambda": "netlify-lambda serve src/lambda",
+    "start:counter": "netlify-lambda serve src/counter",
     "build": "run-p build:**",
     "build:app": "react-scripts build",
-    "build:lambda": "netlify-lambda build src/lambda",
+    "build:counter": "netlify-lambda build src/counter",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -28,7 +28,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "netlify-lambda": "^1.4.5",
+    "netlify-lambda": "^2.0.1",
     "npm-run-all": "^4.1.5"
   }
 }

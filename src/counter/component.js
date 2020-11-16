@@ -106,7 +106,7 @@ class Fccclock extends Component {
     }
 
       return (
-        <div className="App">
+        <div className="FccClock">
         <div id="timer-label">{this.state.isActive ? this.state.break ?  "Break Time" : "Started" : "Stopped"}</div>
         <div id ="time-left" className="Counter">
             {counter.mins}:{counter.secs}
@@ -143,8 +143,7 @@ class Fccclock extends Component {
           }}
           src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
         />
-    </div>
-
+        </div>
     )
   }
 }
