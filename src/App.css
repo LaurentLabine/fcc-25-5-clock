@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:blue;
 }
 
 .App-logo {
@@ -8,6 +9,7 @@
 }
 
 .App-header {
+  background-image: url('https://github.com/LaurentLabine/fcc-25-5-clock/blob/master/src/Img/609410639-huge.jpg');
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
